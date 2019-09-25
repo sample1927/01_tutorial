@@ -2,9 +2,9 @@
 
 int main(int argc, char *argv[]) 
 {
-    char str[256] = mondaigamuzukasii;
+    char str[256];
     fgets(str, sizeof(str), stdin);
-    printf("%s\n", str);
+    printf("%s\n", "XXXXX");
 
     return 0;
 }
